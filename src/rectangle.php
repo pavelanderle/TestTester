@@ -39,5 +39,14 @@ class Rectangle
 	public function isSquare()
 	{
 		return $this->width === $this->height;
-	}
+    }
+    
+    public function getTypeOblon(){
+        if($this->isSquare()){
+            return "Obrazec je čtverec";
+        }
+        else{
+            return "Obrazec je obdélník";
+        }
+    }
 }
