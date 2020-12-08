@@ -1,7 +1,7 @@
 <?php
 use Tester\Assert;
 
-require '/bootstrap.php';
+require 'bootstrap.php';
 require '../src/rectangle.php';
 
 // obecný oblong
